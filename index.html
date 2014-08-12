@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Changee Learning Path - 網站製作實務</title>
+
+		<meta name="description" content="如何從零開始，利用網路資源訓練成為前端工程師">
+		<meta name="author" content="Mark Wu">
+    <meta property="og:title" content="Changee Learning Path - 網站製作實務">
+    <meta property="og:description" content="在網路的時代，我們在開始學習新領域時，可以透過 Google 找到許多學習的「資訊」，然而過多的資訊反而無法判斷什麼才是適合自己的「資源」。現有的學習資源非常豐富，但卻散落在各處，使得「自我學習」時總是花費大量時間在搜尋適合自己的資訊。因此我們希望能夠建立 Changee Learning Path「學習路徑平台」，整合資源與資訊，透過「學習分類帽」、「學習軌跡」、「實體資源」三個主要項目，建立方便自學的「學習路徑平台」。" />
+    <meta property="og:image" content="http://week6.learning-path.info/images/week6-graph.png">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div id="seo-wrapper">
+      <h1>Changee Learning Path - 網站製作實務</h1>
+      <p>
+        在網路的時代，我們在開始學習新領域時，可以透過 Google 找到許多學習的「資訊」，然而過多的資訊反而無法判斷什麼才是適合自己的「資源」。現有的學習資源非常豐富，但卻散落在各處，使得「自我學習」時總是花費大量時間在搜尋適合自己的資訊。因此我們希望能夠建立 Changee Learning Path「學習路徑平台」，整合資源與資訊，透過「學習分類帽」、「學習軌跡」、「實體資源」三個主要項目，建立方便自學的「學習路徑平台」。
+      </p>
+      <img src="http://week6.learning-path.info/images/week6-graph.png">
+    </div>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<section data-background="images/congruent_pentagon.png" data-background-repeat="repeat">
+						<h1>網站製作實務</h1>
+						<h3>Bootstrap, 假圖文工具, 字型</h3>
+						<img src="images/learningpath.jpg">
+						<p>
+							<small><a target="_blank" href="https://www.facebook.com/changeeinfo">Changee</a> | <a target="_blank" href="http://learning-path.info">Learning Path</a></small>
+						</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>Bootstrap</h1>
+						<p>非設計師的救星</p>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/getting-started/">引入 Bootstrap</a></h2>
+						<ul>
+							<li>bootstrap.min.css</li>
+							<li>bootstrap.min.js</li>
+							<li>複製貼上就完成</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/components/#navbar">Navbar</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/segos/2/embed?output">Bootstrap</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>.navbar.navbar-default.navbar-inverse</li>
+							<li>.navbar-toggle</li>
+							<li>.collapse.navbar-collapse</li>
+							<li>.nav.navbar-nav.navbar-right</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/components/#btn-groups">Button</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/fivigo/1/embed?html,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>下拉選單</li>
+							<li>群組按鈕</li>
+							<li>巢狀按鈕</li>
+							<li>各種不同顏色 default, primary, success, info, warning, danger</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/components/#pagination">Pagination, Pager</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/parot/1/embed?html,js,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>active</li>
+							<li>disabled</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/components/#labels">Label</a>, <a target="_blank" href="http://getbootstrap.com/components/#badges">Badge</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/cisese/1/embed?html,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://getbootstrap.com/javascript/#modals">Modal</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/dolife/1/embed?html,js,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>只要複製就可以做出 lightbox 效果</li>
+							<li>可以再利用 js 做出更多設定</li>
+						</ul>
+					</section>
+					<section>
+						<h2>練習時間</h2>
+						<ul>
+							<li>Bootstrap 效果很多</li>
+							<li>快速產生網站介面的好東西</li>
+							<li>找到自己需要的東西套用</li>
+						</ul>
+					</section>
+					<section>
+						<h2>另外還有：</h2>
+						<ul>
+							<li><a target="_blank" href="http://foundation.zurb.com/">Foundation</a></li>
+							<li><a target="_blank" href="http://www.getskeleton.com/">Skeleton</a></li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>假文產生器</h1>
+						<p>lorem ipsum</p>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://more.handlino.com/">MORETEXT</a></h2>
+						<p>一用就愛上的中文假文產生器</p>
+						<a class="jsbin-embed" href="http://jsbin.com/tayeno/1/embed?html,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ol>
+							<li>引入 jQuery</li>
+							<li>引入 moretext.js</li>
+							<li>class="lipsum(句數,每句字數限制)</li>
+						</ol>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://blokkfont.com/">BLOKK</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/perize/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>假圖產生器</h1>
+						<p>Placeholder Images</p>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://lorempixel.com/">lorempixel</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/paxuq/1/embed?html,css,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+						<ul>
+							<li>abstract, animals, business, cats, city, food, nightlife, fashion, people, nature, sports, technics, transport</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://placehold.it/">PLACEHOLD.IT</a></h2>
+						<a class="jsbin-embed" href="http://jsbin.com/tahej/1/embed?html,output">JS Bin</a><script src="http://static.jsbin.com/js/embed.js"></script>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h1>Webfont</h1>
+						<p>受夠了內建字體嗎？</p>
+					</section>
+					<section>
+						<h2><a target="_blank" href="https://www.google.com/fonts">Google fonts</a></h2>
+						<ul>
+							<li>不用擔心使用者電腦內沒有安裝字型</li>
+							<li>Open Source 免費</li>
+							<li>
+								<a target="_blank" href="http://blog.justfont.com/2014/06/google-fonts-1/">Serif</a>、
+								<a target="_blank" href="http://blog.justfont.com/2014/06/google-fonts-2/">Sans-serif</a>、
+								<a target="_blank" href="http://blog.justfont.com/2014/06/google-fonts-3/">Display</a>、
+								Handwriting、Monospace 任君挑選
+							</li>
+							<li>多樣的引入方式</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://www.justfont.com/">justfont 中文字型服務</a></h2>
+						<ul>
+							<li>設計師受夠了新細明體</li>
+							<li>亞洲語系字型檔動輒 5~6MB 載入時間太久</li>
+							<li>依據您網頁上使用的文字，動態的產生並下載您需要的字型</li>
+						</ul>
+					</section>
+					<section>
+						<h2>身為前端工程師，字型也要稍微了解</h2>
+						<ul>
+							<li><a target="_blank" href="http://blog.justfont.com/">justfont 部落格</a></li>
+							<li><a target="_blank" href="https://www.facebook.com/groups/enjoyfonts/">字嗨社團</a></li>
+							<li><a target="_blank" href="http://www.typeisbeautiful.com/">Type is Beautiful</a></li>	
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>icon 服務</h1>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://iconion.com/">iconion</a></h2>
+						<ul>
+							<li>icon 產生器</li>
+							<li>陰影漸層調整</li>
+							<li>現成 icon 選擇，不重造輪子</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></h2>
+						<ul>
+							<li>之前介紹過</li>
+							<li>向量文字，放大解析度還是一樣</li>
+							<li>One Font, 439 Icons 載入許多用不到的 icon</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://fontastic.me/">fontastic</a></h2>
+						<ul>
+							<li>顏色、大小、漸層、陰影都由 CSS 處理</li>
+							<li>客製化需求，不引入多餘 icon</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="http://fontello.com/">fontello</a></h2>
+						<ul>
+							<li>支援 SVG 轉換成 icon font</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a target="_blank" href="https://icomoon.io">icomoon</a></h2>
+						<ul>
+							<li>支援 icon 輸出成 PNG, SVG</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h1>Q&A</h1>
+					<h2><a target="_blank" href="https://www.facebook.com/groups/changee.learningpath/">Facebook 社團</a></h2>
+				</section>
+				
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-51808149-1', 'week1.learning-path.info', {
+            'cookieDomain': 'none'
+        });
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+
+	</body>
+</html>
